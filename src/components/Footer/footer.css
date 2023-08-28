@@ -1,0 +1,283 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+.footer-root {
+  /* margin: 0; */
+}
+.footer-grid {
+  /* grid-gap: 1rem; */
+}
+.grid-header {
+  /* background-color: yellow; */
+  margin-bottom: 2rem;
+}
+/* ------------------------------------------*/
+
+/* Footer header section */
+
+.footer-header {
+  font-family: 'Clash Display', sans-serif;
+  font-size: 15rem;
+  font-weight: 900;
+  line-height: 11rem;
+}
+/* page links section */
+.page-links {
+  font-family: "Poppins", sans-serif;
+  /* background-color: red; */
+  padding-right: 5rem;
+}
+.page-links ul {
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+.a:hover {
+  cursor: pointer;
+}
+
+.a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.a:hover::before {
+  transform: scaleX(1);
+}
+/* ------------------------------------------------- */
+
+/* contact us section */
+.grid-contact {
+  height: 100%;
+  /* background-color: white; */
+  /* padding: 0 5rem 0; */
+  margin-bottom: 2rem;
+  font-size: 5rem;
+}
+.contact-text {
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 600;
+}
+
+.conatct-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7rem;
+  line-height: 3rem;
+  color: #fff;
+}
+.contact-map {
+  /* background-color:teal; */
+  margin-top: 2rem;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.contact-map iframe {
+  width: 100%;
+  height: 20rem;
+  border: 0;
+}
+/* ------------------------------------------*/
+
+/* social media links section */
+.media-links {
+  /* background-color: wheat; */
+}
+.follow-text {
+  font-family: 'Clash Display', sans-serif;
+  font-weight: 600;
+}
+
+.icons {
+  font-size: 4rem;
+}
+
+.icons:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+
+/* ------------------------------------------*/
+
+/* copyright section */
+.footer-copyright Link {
+  text-decoration: none;
+}
+.copyright-text {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+/* handeling responsiveness ------------------*/
+@media (max-width: 1160px) {
+  .footer-header {
+    font-size: 12rem;
+    line-height: 9rem;
+  }
+
+  .page-links ul {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .footer-header {
+    font-size: 9rem;
+    line-height: 7rem;
+  }
+
+  .page-links ul {
+    font-size: 1.3rem;
+  }
+  .page-links {
+    padding-right: 0rem;
+  }
+
+  .contact-text {
+    font-size: 2rem;
+  }
+
+  .conatct-content {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .contact-map {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-map iframe {
+    height: 14rem;
+  }
+
+  .follow-text {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .icons {
+    font-size: 2rem;
+  }
+
+  .copyright-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .footer-header {
+    font-size: 7rem;
+    line-height: 5.5rem;
+  }
+
+  .page-links ul {
+    font-size: 1.1rem;
+  }
+  .page-links {
+    padding-right: 0rem;
+  }
+
+  .contact-text {
+    font-size: 1.8rem;
+  }
+
+  .conatct-content {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .contact-map iframe {
+    height: 10rem;
+  }
+
+  .follow-text {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+
+  .icons {
+    font-size: 1.6rem;
+  }
+
+  .copyright-text {
+    font-size: 1rem;
+  }
+  .footer-copyright {
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer-header {
+    text-align: center;
+    font-size: 7rem;
+    line-height: 5.5rem;
+  }
+  .page-links {
+    padding-right: 0;
+  }
+
+  .page-links ul {
+    font-size: 1.3rem;
+    justify-content: space-evenly;
+  }
+
+  .contact-text {
+    font-size: 2rem;
+  }
+
+  .conatct-content {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .contact-map iframe {
+    height: 10rem;
+  }
+
+  .follow-text {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+
+  .icons {
+    font-size: 2rem;
+  }
+
+  .copyright-text {
+    font-size: 1rem;
+  }
+  .footer-copyright {
+    margin-top: 4rem;
+  }
+}
