@@ -20,7 +20,7 @@ const Events = () => {
             <div className="event-header">
                 <h1>Events</h1>
             </div>
-            <div className="hero-container">{css.map(Heroslider)}</div>
+            <div className="hero-container event-container">{css.map(Heroslider)}</div>
         </>
     );
 };

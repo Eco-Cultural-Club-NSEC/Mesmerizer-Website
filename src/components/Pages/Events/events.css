@@ -18,3 +18,14 @@ html {
     text-align: center;
     padding: 5rem 0;
 }
+
+.event-container {
+    padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 420px) {
+    .event-header h1{
+        font-size: 5rem;
+    }
+}
+    
