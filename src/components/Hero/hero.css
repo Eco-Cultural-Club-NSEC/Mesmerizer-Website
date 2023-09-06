@@ -147,9 +147,8 @@ html {
     font-size: 9rem;
   }
   .hero-container {
-    line-height: 10rem;
+    line-height: 15rem;
     background-color: #000000;
-    /* height: 100vh; */
   }
   .hero-slide-1 span {
     height: 4rem;
@@ -158,5 +157,12 @@ html {
   .hero-slide-2 span {
     height: 4rem;
     margin: 0 1rem;
+  }
+}
+
+
+@media (max-width: 376px) {
+  .hero-container {
+    line-height: 10rem;
   }
 }

@@ -13,12 +13,12 @@ li {
   list-style: none;
 }
 
-.footer-root {
-  /* margin: 0; */
+/* .footer-root {
+  margin: 0;
 }
 .footer-grid {
-  /* grid-gap: 1rem; */
-}
+  grid-gap: 1rem;
+} */
 .grid-header {
   /* background-color: yellow; */
   margin-bottom: 2rem;
@@ -108,9 +108,9 @@ li {
 /* ------------------------------------------*/
 
 /* social media links section */
-.media-links {
-  /* background-color: wheat; */
-}
+/* .media-links {
+  background-color: wheat;
+} */
 .follow-text {
   font-family: 'Clash Display', sans-serif;
   font-weight: 600;

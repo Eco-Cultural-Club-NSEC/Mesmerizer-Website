@@ -84,7 +84,7 @@ export default function Previousevent() {
             {/* see all photos button */}
             <div className="see-all">
                 <div data-aos="zoom-in"
-                    data-aos-offset="300"
+                    data-aos-offset="150"
                     data-aos-duration="500" className="end-line"></div>
                 <div
                     className="galary-btn"

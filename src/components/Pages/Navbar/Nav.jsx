@@ -32,7 +32,7 @@ const Nav = () => {
                             <Link className="a" onClick={toggleNav} to='/events'>Events</Link>
                         </li>
                         <li>
-                            <Link className="a" onClick={toggleNav} to='/galary'>Galary</Link>
+                            <Link className="a" onClick={toggleNav} to='/galary'>Gallery</Link>
                         </li>
                         <li>
                             <Link className="a" onClick={toggleNav} to='/teams'>Teams</Link>
