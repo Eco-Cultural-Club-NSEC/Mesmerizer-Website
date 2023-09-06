@@ -11,7 +11,7 @@ import "../../About/about.css";
 import Previousevent from '../../Previous-events/Previousevent';
 import '../../Previous-events/previousevent.css';
 
-import LogoSlider from '../../Logoslider/LogoSlider'
+import Logoslider from '../../Logoslider/Logoslider'
 import '../../Logoslider/logoslider.css';
 
 import Testimonial from '../../Testimonials/Testimonial';
@@ -24,7 +24,7 @@ import '../../Testimonials/testimonial.css';
         <Imgslider />
         <About />
         <Previousevent/>
-        <LogoSlider/>
+        <Logoslider/>
         <Testimonial />
     </div>
   );

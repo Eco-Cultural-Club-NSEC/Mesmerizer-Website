@@ -21,7 +21,7 @@ const logos = [
   }
 ];
 
-function LogoSlider() {
+function Logoslider() {
   return (
     <div className="logos">
       <div className="logos-slide">
@@ -45,4 +45,4 @@ function LogoSlider() {
     </div>
   );
 }
-export default LogoSlider;
+export default Logoslider;
