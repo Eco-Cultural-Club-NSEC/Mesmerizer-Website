@@ -59,18 +59,18 @@ li {
 /* ---------------css styling---------------------*/
 .logo h2 {
   font-family: "Clash Display", sans-serif;
-  font-weight: 800;
-  font-size: 3rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  background-color: #fff;
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .menu-link ul li {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Clash Display", sans-serif;
   font-size: 2rem;
 }
 
@@ -82,12 +82,16 @@ li {
 
 /* --------------Hover effect on menu items */
 
-/* .menu-link ul li:hover > a {
+.menu-link ul li:hover > a {
   transform-origin: left;
-  color: #ffc145;
-  text-decoration: underline;
+  color: #0BC3C0;
   transition: 0.5s;
-} */
+}
+
+/* active navitem */
+.menu-link ul li .active{ 
+  color: #FFC145;
+}
 
 .a::before {
   content: "";
@@ -97,14 +101,17 @@ li {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #fff;
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
 
 .a:hover::before {
   transform: scaleX(1);
+  background-color: #0BC3C0;
 }
+
+
+
 /* Button */
 .btn {
   font-family: "Poppins", sans-serif;
@@ -147,6 +154,11 @@ li {
   .menu-link ul {
     height: 6.5rem;
   }
+
+  .logo h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
 }
 
 /* Hamburger icon shows up here  */
@@ -158,12 +170,9 @@ li {
 
   .logo {
     height: 6rem;
-  }
-
-  .logo h2 {
-    font-size: 2.7rem;
   } */
 
+ 
   /* hiding the main navbar */
   .main-nav-mobile {
     background-color: #1a1818;
@@ -256,7 +265,8 @@ li {
   }
 
   .logo h2 {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
+    line-height: 1.5rem;
   }
 
   .hamburger-menu {
@@ -276,6 +286,11 @@ li {
 
   .logo {
     height: 7rem;
+  }
+
+  .logo h2 {
+    font-size: 1.8rem;
+    line-height: 1.6rem;
   }
 
   .hamburger-menu {

@@ -48,7 +48,7 @@ export default function Footer() {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink className="a" to="/galary">
+                  <NavLink className="a" to="/gallery">
                     Galary
                   </NavLink>
                 </li>

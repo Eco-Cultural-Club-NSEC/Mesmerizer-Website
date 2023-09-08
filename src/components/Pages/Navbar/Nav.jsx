@@ -9,10 +9,12 @@ import { RxCross2 } from "react-icons/rx";
 
 const Nav = () => {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
+    const [activeitem, setisactive] = useState("/");
 
     // toggle hamburger menu
-    const toggleNav = () => {
-        setTimeout(() => { setShowMediaIcons(!showMediaIcons)}, 200);
+    const toggleNav = (item) => {
+        setTimeout(() => { setShowMediaIcons(!showMediaIcons) }, 200);
+        setisactive(item);
     }
 
     return (
@@ -20,23 +22,37 @@ const Nav = () => {
             <nav className={showMediaIcons ? 'main-nav main-nav-mobile' : "main-nav"}>
                 {/* logo */}
                 <div className='logo'>
-                    <h2>Eco-Cultural Club</h2>
+                    <h2> Eco <br /> Cultural <br /> Club of NSEC</h2>
                 </div>
                 {/* menu part */}
                 <div className={showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"}>
                     <ul>
-                        <li>
-                            <Link className="a" onClick={toggleNav} to='/'>Home</Link>
+                        {["Home", "Events", "Gallery", "Teams"].map((item) => (
+                            <>
+                                <li>
+                                    <Link
+                                        className={`a ${item === activeitem ? "active" : ""}`}
+                                        onClick={() => toggleNav(item)}
+                                        to={item === "Home" ? `/` : `/${item.toLowerCase()} `}
+                                    >
+                                        {item}
+                                    </Link>
+                                </li>
+                            </>
+                        ))}
+                        {/* ---------- OR --------- */}
+                        {/* <li>
+                            <Link className={`a ${activeitem === 1 ? "active" : ""}`} onClick={() => toggleNav(1)} to='/'>Home</Link>
                         </li>
                         <li>
-                            <Link className="a" onClick={toggleNav} to='/events'>Events</Link>
+                            <Link className={`a ${activeitem === 2 ? "active" : ""}`} onClick={() => toggleNav(2)} to='/events'>Events</Link>
                         </li>
                         <li>
-                            <Link className="a" onClick={toggleNav} to='/galary'>Gallery</Link>
+                            <Link className={`a ${activeitem === 3 ? "active" : ""}`} onClick={() => toggleNav(3)} to='/gallery'>Gallery</Link>
                         </li>
                         <li>
-                            <Link className="a" onClick={toggleNav} to='/teams'>Teams</Link>
-                        </li>
+                            <Link className={`a ${activeitem === 4 ? "active" : ""}`} onClick={() => toggleNav(4)} to='/teams'>Teams</Link>
+                        </li> */}
                         <li className='btn-li'>
                             <Link onClick={toggleNav} href='/pass'>
                                 <button className='btn'>
@@ -53,7 +69,7 @@ const Nav = () => {
                         {showMediaIcons ? <RxCross2 color='#0bc3c0' /> : <GiHamburgerMenu color='#0bc3c0' />}
                     </a>
                 </div>
-            </nav>
+            </nav >
         </>
     );
 };

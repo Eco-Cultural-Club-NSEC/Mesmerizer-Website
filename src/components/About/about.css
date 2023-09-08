@@ -34,13 +34,15 @@ html {
 
 .about-item {
   font-family: 'Clash Display', sans-serif;
+  line-height: 7rem;
   display: flex;
   grid-column: 3/4;
   justify-content: center;
   padding: 2rem 0;
   border-radius: 0.8rem;
   /*     box-shadow: 0 .2rem .4rem rgba(0, 0, 0, 0.1); */
-  font-size: 4rem;
+  /* font-size: 4rem; */
+  font-size: 6rem;
 
   color: #0bc3c0;
   background-color: #000;
@@ -49,8 +51,9 @@ html {
   color: #fff;
 }
 .about-content {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Clash Display', sans-serif;
   font-weight: 400;
+  line-height: 3.2rem;
   display: flex;
   grid-column: 2/3;
   /*     background-color: #f2f2f2; */
@@ -69,12 +72,15 @@ html {
   .about-line {
     width: 30rem;
     margin-left: 4rem;
+    margin-bottom: 0rem;
   }
   .about-item{
-    font-size: 3rem;
+    font-size: 4rem;
+    line-height: 4.5rem;
   }
   .about-content{
-    font-size: 2rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
   }
   .about-section {
     grid-template-columns: 2rem 5fr 2fr 2rem;
@@ -96,9 +102,11 @@ html {
   }
   .about-item{
     font-size: 2.5rem;
+    line-height: 3rem;
   }
   .about-content{
     font-size: 1.5rem;
+    line-height: 2.3rem;
   }
 }
 @media(max-width:500px){
@@ -106,15 +114,17 @@ html {
     padding: 2rem 1rem;
   }
   .about-line {
-    width: 10rem;
+    width: 8rem;
     margin-left: 4rem;
     margin-bottom: 0;
   }
   .about-item{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
   }
   .about-content{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
   }
 }
 

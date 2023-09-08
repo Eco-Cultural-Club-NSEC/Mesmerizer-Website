@@ -18,7 +18,8 @@ html {
 /* header-section */
 .prevevent-header {
   font-family: "Clash Display", sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
+  line-height: 6rem;
   color: #ffc145;
   padding-bottom: 10rem;
 }
@@ -161,6 +162,7 @@ html {
   }
   .prevevent-header {
     font-size: 3rem;
+    line-height: 4rem;
     padding-bottom: 8rem;
   }
   h1 {
@@ -181,6 +183,7 @@ html {
   .prevevent-header {
     padding-bottom: 7rem;
     font-size: 2.5rem;
+    line-height: 3rem;
   }
   .see-all {
     margin-top: 3rem;
@@ -200,6 +203,7 @@ html {
   .prevevent-header {
     padding-bottom: 6rem;
     font-size: 2rem;
+    line-height: 2.5rem;
   }
 
   .prevevent-main {
@@ -209,19 +213,20 @@ html {
     font-size: 2rem;
   }
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .item-1 .item-header h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   .item-4 .item-header h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 @media (max-width: 582px) {
   .prevevent-header {
     padding-bottom: 5rem;
     font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .prevevent-main {
@@ -234,7 +239,8 @@ html {
 @media (max-width: 420px) {
   .prevevent-header {
     padding-bottom: 4rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
   }
 
   .prevevent-container {
@@ -271,33 +277,3 @@ html {
   }
 }
 
-/* @media (max-width: 1180px) {
-  html {
-    font-size: 50%;
-  }
-}
-@media (max-width: 980px) {
-  html {
-    font-size: 40%;
-  }
-}
-@media (max-width: 778px) {
-  html {
-    font-size: 35%;
-  }
-}
-@media (max-width: 600px) {
-  html {
-    font-size: 30%;
-  }
-}
-@media (max-width: 464px) {
-  html {
-    font-size: 25%;
-  }
-}
-@media (max-width: 386px) {
-  html {
-    font-size: 20%;
-  }
-} */
