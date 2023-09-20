@@ -64,7 +64,7 @@ export default function Previousevent() {
                 <div
                     className="item item-3"
                     data-aos="fade-right"
-                    data-aos-offset="300"
+                    data-aos-offset="50"
                     data-aos-easing="ease-in-sine">
                     <img src={img.img3} alt="img" />
                 </div>
@@ -90,7 +90,7 @@ export default function Previousevent() {
                     className="galary-btn"
                     data-aos="fade-up"
                     data-aos-duration="500">
-                    <Link className="text" to="/galary" >See All Photos
+                    <Link className="text" to="/gallery" >See All Photos
                         <ArrowCircleRightIcon className="icon"
                         />
                     </Link>

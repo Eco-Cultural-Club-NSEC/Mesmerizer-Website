@@ -31,7 +31,7 @@ const Nav = () => {
                             <>
                                 <li>
                                     <Link
-                                        className={`a ${item === activeitem ? "active" : ""}`}
+                                        className={`menu-item ${item === activeitem ? "active" : ""}`}
                                         onClick={() => toggleNav(item)}
                                         to={item === "Home" ? `/` : `/${item.toLowerCase()} `}
                                     >

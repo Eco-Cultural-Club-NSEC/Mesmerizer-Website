@@ -11,10 +11,6 @@ html {
   font-size: 62.5%;
 }
 
-a {
-  text-decoration: none;
-}
-
 li {
   list-style: none;
 }
@@ -74,15 +70,15 @@ li {
   font-size: 2rem;
 }
 
-/* .menu-link ul li a {
-  text-transform: capitalize;
+.menu-link ul li .menu-item {
+  text-decoration: none;
   color: #fff;
-  transition: 0.5s;
-} */
+}
 
 /* --------------Hover effect on menu items */
 
-.menu-link ul li:hover > a {
+/* targeting the Navlink items */
+.menu-link ul li:hover > .menu-item {
   transform-origin: left;
   color: #0BC3C0;
   transition: 0.5s;
@@ -93,7 +89,7 @@ li {
   color: #FFC145;
 }
 
-.a::before {
+.menu-item::before {
   content: "";
   position: absolute;
   display: block;
@@ -101,13 +97,13 @@ li {
   height: 2px;
   bottom: 0;
   left: 0;
+  background-color: #fff;
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
 
-.a:hover::before {
+.menu-item:hover::before {
   transform: scaleX(1);
-  background-color: #0BC3C0;
 }
 
 

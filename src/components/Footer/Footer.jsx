@@ -1,3 +1,4 @@
+import  "./footer.css"
 
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
@@ -8,23 +9,22 @@ import { Box } from "@mui/material";
 
 import { NavLink } from "react-router-dom";
 
-import "./footer.css";
 
 export default function Footer() {
   return (
     <Box
-      className="footer-main-container"
+      id="footer-main-container"
       component="footer"
       sx={{
         background: "#F1673F",
         p: 8
       }}
     >
-      <Container className="footer-root" maxWidth="lg">
-        <Grid className="footer-grid" container spacing={1}>
-          <Grid className="grid-header" item xs={12} sm={4}>
+      <Container id="footer-root" maxWidth="lg">
+        <Grid id="footer-grid" container spacing={1}>
+          <Grid id="grid-header" item xs={12} sm={4}>
             <Typography
-              className="footer-header"
+              id="footer-header"
               variant="h2"
               color="#FFC145"
               gutterBottom
@@ -35,7 +35,7 @@ export default function Footer() {
               <br />
               IZER
             </Typography>
-            <div className="page-links">
+            <div id="page-links">
               <ul>
                 <li>
                   <NavLink className="a" to="/">
@@ -49,7 +49,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <NavLink className="a" to="/gallery">
-                    Galary
+                    Gallery
                   </NavLink>
                 </li>
                 <li>
@@ -61,9 +61,9 @@ export default function Footer() {
             </div>
           </Grid>
           <Grid item xs={12} sm={6}>
-            <div className="grid-contact">
+            <div id="grid-contact">
               <Typography
-                className="contact-text"
+                id="contact-text"
                 variant="h3"
                 color="#fff"
                 gutterBottom
@@ -71,9 +71,8 @@ export default function Footer() {
                 Contact Us
               </Typography>
               <Typography
-                className="conatct-content"
+                id="contact-content"
                 variant="body1"
-                color="text.secondary"
               >
                 Netaji Subhash Engineering College
                 <br />
@@ -81,7 +80,7 @@ export default function Footer() {
                 <br />
                 +91 81000 36329 / +91 87778 37273
               </Typography>
-              <div className="contact-map">
+              <div id="contact-map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3686.743167840082!2d88.41237027483524!3d22.47628373649441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02722b05a38e87%3A0x276c0d30e6be12ea!2sNetaji%20Subhash%20Engineering%20College!5e0!3m2!1sen!2sin!4v1692310225845!5m2!1sen!2sin"
                   title="map"
@@ -92,33 +91,32 @@ export default function Footer() {
               </div>
             </div>
           </Grid>
-          <Grid className="media-links" item xs={12} sm={2}>
+          <Grid id="media-links" item xs={12} sm={2}>
             <Typography
-              className="follow-text"
+              id="follow-text"
               variant="h3"
               color="#fff"
               gutterBottom
             >
               Follow Us
             </Typography>
-            <Link href="https://www.facebook.com/" color="inherit">
-              <Facebook className="icons" />
+            <Link href="https://www.facebook.com/">
+              <Facebook id="icons" />
             </Link>
             <Link
               href="https://www.instagram.com/"
-              color="inherit"
               sx={{ pl: 2, pr: 2 }}
             >
-              <Instagram className="icons" />
+              <Instagram id="icons" />
             </Link>
-            <Link href="https://www.twitter.com/" color="inherit">
-              <Twitter className="icons" />
+            <Link href="https://www.twitter.com/">
+              <Twitter id="icons" />
             </Link>
           </Grid>
         </Grid>
-        <Box className="footer-copyright" mt={5}>
+        <Box id="footer-copyright" mt={5}>
           <Typography
-            className="copyright-text"
+            id="copyright-text"
             variant="body1"
             color="#fff"
             align="center"
