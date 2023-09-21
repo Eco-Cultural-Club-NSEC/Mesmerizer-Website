@@ -201,9 +201,6 @@
 
 /* Custom Responsiveness for mobile */
 @media (max-width: 500px) {
-  .container {
-    padding-top: 0rem;
-  }
   .swiper_container {
     height: 47rem;
   }
