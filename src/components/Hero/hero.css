@@ -9,6 +9,7 @@ html {
   font-size: 62.5%;
 }
 .hero-container {
+  /* width: 100vw; */
   padding: 1rem 0 15rem;
   line-height: 9rem;
   background-color: #000000;

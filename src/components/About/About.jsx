@@ -44,10 +44,8 @@ export default function About() {
           </p>
         </div>
         <div
-          data-aos="fade-left"
-          data-aos-offset="50"
-          data-aos-duration="500"
-          className="about-item">
+          data-aos="zoom-in-down"
+          className="about-header">
           <h2>
             ABOUT <br /> ABOUT
             <br />

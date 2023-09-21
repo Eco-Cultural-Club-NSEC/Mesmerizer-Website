@@ -29,9 +29,7 @@ export default function Previousevent() {
         <div className="prevevent-main">
             {/* header-section */}
             <div
-                data-aos="fade-left"
-                data-aos-offset="300"
-                data-aos-duration="500"
+                data-aos="zoom-out-right"
                 className="prevevent-header">
                 <h2>
                     PREVIOUS EVENTS
@@ -44,9 +42,7 @@ export default function Previousevent() {
             {/* events images div */}
             <div className="prevevent-container">
                 <div
-                    data-aos="fade-right"
-                    data-aos-offset="50"
-                    data-aos-easing="ease-in-sine"
+                    data-aos="zoom-in-up"
                     className="item item-1">
                     <div className="item-header">
                         <h1> 1.Waves in Town</h1>
@@ -55,24 +51,18 @@ export default function Previousevent() {
                     <img src={img.img1} alt="img" />
                 </div>
                 <div
-                    className="item item-2"
-                    data-aos="fade-left"
-                    data-aos-offset="50"
-                    data-aos-duration="500">
+                    data-aos="zoom-in-up"
+                    className="item item-2">
                     <img src={img.img2} alt="img" />
                 </div>
                 <div
-                    className="item item-3"
-                    data-aos="fade-right"
-                    data-aos-offset="50"
-                    data-aos-easing="ease-in-sine">
+                    data-aos="zoom-in-up"
+                    className="item item-3">
                     <img src={img.img3} alt="img" />
                 </div>
                 <div
-                    className="item item-4"
-                    data-aos="fade-left"
-                    data-aos-offset="50"
-                    data-aos-duration="500">
+                    data-aos="zoom-in-up"
+                    className="item item-4">
                     <div className="item-header">
                         <h1> 2.EPR IYER</h1>
                         <h3>1st Solo Performance in his career</h3>
@@ -83,13 +73,15 @@ export default function Previousevent() {
 
             {/* see all photos button */}
             <div className="see-all">
-                <div data-aos="zoom-in"
+                <div 
+                    data-aos="zoom-in"
                     data-aos-offset="150"
-                    data-aos-duration="500" className="end-line"></div>
+                    data-aos-duration="500" 
+                    className="end-line"></div>
                 <div
-                    className="galary-btn"
                     data-aos="fade-up"
-                    data-aos-duration="500">
+                    data-aos-duration="500"
+                    className="galary-btn">
                     <Link className="text" to="/gallery" >See All Photos
                         <ArrowCircleRightIcon className="icon"
                         />

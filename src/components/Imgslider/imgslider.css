@@ -14,7 +14,7 @@
 } */
 
 /* handeling the responsiveness */
-html {
+/* html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
@@ -33,11 +33,11 @@ html {
   html {
     font-size: 40%;
   }
-}
+} */
 
-/* ---------------Send of handeling the responsiveness-------------- */
+/* ---------------end of handeling the responsiveness-------------- */
 
-@media (min-width: 1440px) {
+/* @media (min-width: 1440px) {
   .container {
     zoom: 1.5;
   }
@@ -53,7 +53,7 @@ html {
   .container {
     zoom: 2.5;
   }
-}
+} */
 
 ::-webkit-scrollbar {
   width: 1.3rem;
@@ -80,11 +80,11 @@ html {
 } */
 
 .container {
+  /* width: 100vw; */
   color: #ffffff;
   font-size: 1.6rem;
   background: var(--bg);
   background-color: black;
-  max-width: 100%;
   padding: 6rem 1rem 4rem;
   margin: 0 auto;
   --primary: #6a59ff;

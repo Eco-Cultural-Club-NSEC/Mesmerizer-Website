@@ -9,14 +9,18 @@ html {
   font-size: 62.5%;
 }
 
+#footer-main-container {
+  /* width: 100vw; */
+}
+
 li {
   list-style: none;
 }
 
 /* #footer-root {
-  margin: 0;
-}
-#footer-grid {
+  width: 100vw;
+} */
+/* #footer-grid {
   grid-gap: 1rem;
 } */
 #grid-header {

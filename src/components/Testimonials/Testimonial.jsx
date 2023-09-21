@@ -45,10 +45,8 @@ const Testimonial = () => {
                     data-aos-duration="1000"
                     className="testimonial-header-line"></div>
                 <div
-                    className="testimonial-header-text"
-                    data-aos="fade-right"
-                    data-aos-offset="300"
-                    data-aos-duration="500">
+                    data-aos="zoom-in-down"
+                    className="testimonial-header-text">
                     <h2>
                         TESTIMONIALS
                         <br />

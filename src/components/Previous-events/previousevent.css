@@ -9,7 +9,7 @@ html {
 }
 
 .prevevent-main {
-  width: 100vw;
+  /* width: 100vw; */
   /* height: 100vh;  not working*/
   background-color: #000000;
   padding: 0 20rem 12rem;

@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import {useState, useEffect} from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -41,7 +41,7 @@ function Imgslider() {
   };
 
   const handleMouseLeave = () => {
-    setHoverDelay("500");
+    setHoverDelay("1500");
   };
   // ----------------------------------
   //zoom out effect on scroll
@@ -57,7 +57,7 @@ function Imgslider() {
     >
       {/* <h1 className="heading">Image Gallery</h1> */}
       <Swiper
-        data-aos="zoom-out" data-aos-duration="5000" data-aos-delay="100"
+        data-aos="zoom-in" data-aos-duration="5000" data-aos-delay="100"
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
