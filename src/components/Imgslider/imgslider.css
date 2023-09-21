@@ -37,7 +37,7 @@
 
 /* ---------------end of handeling the responsiveness-------------- */
 
-/* @media (min-width: 1440px) {
+@media (min-width: 1440px) {
   .container {
     zoom: 1.5;
   }
@@ -53,7 +53,7 @@
   .container {
     zoom: 2.5;
   }
-} */
+}
 
 ::-webkit-scrollbar {
   width: 1.3rem;
@@ -117,20 +117,6 @@
   object-fit: cover;
 }
 
-@media (max-width: 500px) {
-  .swiper_container {
-    height: 47rem;
-  }
-  .swiper-slide {
-    width: 30rem !important;
-    height: 28rem !important;
-  }
-  .swiper-slide img {
-    width: 30rem !important;
-    height: 28rem !important;
-  }
-}
-
 
 
 .swiper-slide-shadow-left,
@@ -140,7 +126,7 @@
 
 .slider-controler {
   position: relative;
-  bottom: 2rem;
+  bottom: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,4 +197,26 @@
 
 .swiper-pagination .swiper-pagination-bullet-active {
   background: var(--primary);
+}
+
+/* Custom Responsiveness for mobile */
+@media (max-width: 500px) {
+  .container {
+    padding-top: 0rem;
+  }
+  .swiper_container {
+    height: 47rem;
+  }
+  .swiper-slide {
+    width: 34rem !important;
+    height: 38rem !important;
+  }
+  .swiper-slide img {
+    width: 34rem !important;
+    height: 38rem !important;
+  }
+  .slider-controler {
+    position: relative;
+    bottom: 2rem;
+  }
 }
