@@ -23,6 +23,7 @@ html {
   /* background-color: #484040; */
   display: grid;
   grid-template-columns: repeat(2, minmax(250px, 1fr));
+  letter-spacing: -3px;
   /* grid-column-gap: 5rem; */
 }
 

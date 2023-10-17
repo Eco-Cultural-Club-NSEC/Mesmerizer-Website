@@ -10,7 +10,8 @@ const css = [
   { id: 1, class: "hero-slide-1", text1: "text-1", text2: "text-2", content: "MESMERIZER" },
   { id: 2, class: "hero-slide-2", text1: "text-3", text2: "text-4", content: "MESMERIZER" },
   { id: 1, class: "hero-slide-1", text1: "text-1", text2: "text-2", content: "MESMERIZER" },
-  { id: 2, class: "hero-slide-2", text1: "text-3", text2: "text-4", content: "MESMERIZER" }
+  { id: 2, class: "hero-slide-2", text1: "text-3", text2: "text-4", content: "MESMERIZER" },
+  { id: 1, class: "hero-slide-1", text1: "text-1", text2: "text-2", content: "MESMERIZER"}
 ];
 
 function Heroslider(css) {
