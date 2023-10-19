@@ -146,7 +146,7 @@ input:focus{
     font-size: 30px;
     padding: 0px 10px;
     color: white;
-    text-decoration:none;
+/*     text-decoration:none; */
 }
 
 @media (max-width: 426px) {
