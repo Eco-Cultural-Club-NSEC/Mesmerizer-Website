@@ -145,8 +145,7 @@ input:focus{
 .div2 i {
     font-size: 30px;
     padding: 0px 10px;
-    color: white;
-/*     text-decoration:none; */
+
 }
 
 @media (max-width: 426px) {
