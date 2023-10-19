@@ -50,10 +50,10 @@ const UnderConstruction = () => {
                     <p><i className="fa-regular fa-copyright"></i>     Mesmerizer 2024. Copyright reserved.</p>
                 </div>
                 <div className="div2">
-                    <a href = "https://instagram.com/ecoculturalclub_nsec?igshid=MzRlODBiNWFlZA==">
+                    <a href = "https://instagram.com/ecoculturalclub_nsec?igshid=MzRlODBiNWFlZA==" style="color: white;">
                     <i className="fa-brands fa-instagram"></i>
                     </a>
-                    <a href = "https://www.facebook.com/ecoculturalclubofnsec?mibextid=ZbWKwL">
+                    <a href = "https://www.facebook.com/ecoculturalclubofnsec?mibextid=ZbWKwL" style="color: white;">
                     <i className="fa-brands fa-facebook"></i>
                     </a>    
                 </div>
